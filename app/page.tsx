@@ -46,7 +46,7 @@ const Page = () => {
   };
 
   return (
-    <main className="mx-auto w-full px-8 py-12 space-y-32">
+    <main className="mx-auto w-full px-8 py-12 space-y-32 overflow-hidden">
       <section className="flex flex-col sm:flex-row space-y-10">
         <Spotlight className="w-full absolute -top-40 -left-40" fill="purple" />
         <Spotlight
