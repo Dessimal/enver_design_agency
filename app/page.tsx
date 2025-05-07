@@ -64,7 +64,7 @@ const Page = () => {
             </h1>
           </div>
           <div className="space-y-12">
-            <p className="text-lg max-w-2/3 sm:max-w-[400px]">
+            <p className="text-lg max-w-5/6 sm:max-w-[400px]">
               Enver studio is a digital studio that offers several services such
               as UI/UX Design to developers. You can trust us to deliver the{" "}
               very best
