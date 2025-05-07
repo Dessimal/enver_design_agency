@@ -57,24 +57,21 @@ const Page = () => {
 
         <div className="space-y-10">
           <div>
-            <h1 className="font-extrabold text-6xl leading-20">
+            <h1 className="font-bold text-6xl leading-20">
               Build Your <br /> Awesome <br />
               Platform
             </h1>
           </div>
           <div className="space-y-12">
-            <p className="text-2xl">
-              Enver studio is a digital studio that offers{" "}
-              <br className="sm:hidden" />
-              several services such as UI/UX Design to{" "}
-              <br className="sm:hidden" />
-              developers. You can trust us to deliver the{" "}
-              <br className="sm:hidden" /> very best
+            <p className="text-lg">
+              Enver studio is a digital studio that offers several services such
+              as UI/UX Design to developers. You can trust us to deliver the{" "}
+              very best
             </p>
             <div>
               <Button
                 buttonText="Our Services"
-                icon={<ArrowUpRight size={28} />}
+                icon={<ArrowUpRight size={25} />}
               />
             </div>
           </div>
@@ -94,15 +91,15 @@ const Page = () => {
           </div>
           <Image
             src={ZigZag}
-            width={80}
-            height={80}
+            width={60}
+            height={60}
             alt="zigzag image"
             className="absolute top-14 left-1"
           />
           <Image
             src={TwoCircles}
-            width={80}
-            height={80}
+            width={50}
+            height={50}
             alt="two circles image"
             className="absolute top-6 right-10"
           />
@@ -115,8 +112,8 @@ const Page = () => {
           />
           <Image
             src={ArrowHead}
-            width={80}
-            height={80}
+            width={60}
+            height={60}
             alt="cross image"
             className="absolute -bottom-8 left-1"
           />
