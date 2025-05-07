@@ -1,9 +1,10 @@
-import HeroImage from "@/public/hero image.png";
+import HeroImage from "@/app/assets/better-hero-image.png";
 import ArrowHead from "@/app/assets/arrow head.png";
 import TwoCircles from "@/app/assets/two-circles.png";
 import ZigZag from "@/app/assets/zig-zag.png";
+import VideoThumbnail from "@/app/assets/video-thumbnail.png";
 import Add from "@/app/assets/add.png";
-import Logo from "@/app/assets/EnverLogo.png";
+import Logo from "@/app/assets/enver-mobile-logo.png";
 import PortfolioOne from "@/app/assets/portfolio-1.png";
 import PortfolioTwo from "@/app/assets/portfolio-2.png";
 import PortfolioThree from "@/app/assets/portfolio-3.png";
@@ -23,7 +24,16 @@ import {
   ClapperboardIcon,
 } from "lucide-react";
 
-export { HeroImage, ArrowHead, TwoCircles, ZigZag, Add, Logo, VideographyIcon };
+export {
+  HeroImage,
+  VideoThumbnail,
+  ArrowHead,
+  TwoCircles,
+  ZigZag,
+  Add,
+  Logo,
+  VideographyIcon,
+};
 
 export const services = [
   {
@@ -74,3 +84,5 @@ export const footerLinks = [
   "Privacy Policy",
   "Terms And Conditions",
 ];
+
+export const NavLinks = ["Home", "About", "Services", "Contact"];
