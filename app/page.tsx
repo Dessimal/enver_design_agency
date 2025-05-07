@@ -22,6 +22,7 @@ import {
 import { Spotlight } from "./components/ui/Spotlight";
 import Button from "./components/Button";
 import Subheading from "./components/Subheading";
+import { NewSpotlight } from "./components/ui/spotlight-new";
 
 const Page = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,7 +48,7 @@ const Page = () => {
   return (
     <main className="mx-auto w-full px-8 py-12 space-y-32">
       <section className="flex flex-col sm:flex-row space-y-10">
-        <Spotlight className="absolute -top-40 -left-40 size-6" fill="purple" />
+        <Spotlight className="w-full absolute -top-40 -left-40" fill="purple" />
         <Spotlight
           className="absolute -top-80 left-2 h-[80vh] w-[50vw]"
           fill="white"
@@ -80,6 +81,8 @@ const Page = () => {
         </div>
 
         <div className="relative">
+          <NewSpotlight />
+
           <div className="relative ">
             <Image
               className="w-full object-cover"

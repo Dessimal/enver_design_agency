@@ -1,9 +1,10 @@
-import * as React from "react";
+"use client";
+
 import { useRef } from "react";
 import { motion, useCycle } from "framer-motion";
 import { useDimensions } from "@/app/utils/use-dimensions";
-import { MenuToggle } from "@/app/components/MenuToggle";
-import { Navigation } from "@/app/components/Navigation";
+import { MenuToggle } from "./MenuToggle";
+import { Navigation } from "./Navigation";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -25,7 +26,7 @@ const sidebar = {
   },
 };
 
-export const Example = () => {
+export const MobileNav = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
@@ -42,3 +43,5 @@ export const Example = () => {
     </motion.nav>
   );
 };
+
+export default MobileNav;
