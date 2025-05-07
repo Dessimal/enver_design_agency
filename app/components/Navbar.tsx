@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="mx-auto px-6 py-14 ">
       <div className="flex flex-row justify-between w-full">
         <div>
-          <Image src={Logo} height={32} width={150} alt="logo image" />
+          <Image src={Logo} height={22} width={130} alt="logo image" />
         </div>
         <div className="hidden md:block">
           <ul>

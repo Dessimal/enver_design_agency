@@ -6,7 +6,7 @@ interface SubheadingProps {
 
 const Subheading: React.FC<SubheadingProps> = ({ text }) => {
   return (
-    <h2 className="leading-[4.5rem] font-extrabold text-5xl md:text-6xl capitalize">
+    <h2 className="leading-12 font-extrabold text-3xl md:text-6xl capitalize">
       {text}
     </h2>
   );
