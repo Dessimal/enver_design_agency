@@ -9,7 +9,7 @@ interface CardProps {
   src: React.ReactElement;
 }
 
-const Card: React.Fc<CardProps> = ({ icon, title, text, color, src }) => {
+const Card: React.FC<CardProps> = ({ icon, title, text, color, src }) => {
   return (
     <div>
       <div className="flex flex-col gap-8 w-full items-center text-center">
