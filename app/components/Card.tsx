@@ -6,7 +6,7 @@ interface CardProps {
   title: string; // Corrected here
   text: string; // Corrected here
   color: string;
-  src: React.ReactElement;
+  src: string | StaticImageData;
 }
 
 const Card: React.FC<CardProps> = ({ icon, title, text, color, src }) => {
